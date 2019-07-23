@@ -1,0 +1,30 @@
+@import '../../vars.scss';
+
+.sidebar_div{
+    height: 100%;
+    background: linear-gradient($principal_color, $secondary_color);
+    width: 230px;
+
+    .sidebar_div-title{
+        border-bottom: 1px solid #ffffff5c;
+        width: fit-content;
+        margin: auto;
+        
+        .sidebar_p-title{
+            margin: 0;
+            padding: 30px 0px;
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            width: 175px;
+        }
+    }
+
+    .sidebar_div-menu{
+        margin-top: 30px;
+    }
+}
+
+.drawer-centro{
+    background-color: #e7eeff;
+}

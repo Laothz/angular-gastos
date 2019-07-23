@@ -1,0 +1,27 @@
+.div_link{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 40px;
+    height: 58px;
+    cursor: pointer;
+    border-left: 5px solid transparent;
+
+    &:hover{
+        border-left: 5px solid white;
+        background: linear-gradient(to right,#708fe1,rgba(0,0,0,0));
+    }
+
+    .icon_link{
+        margin-right: 10px;
+    }
+
+    .a_link{
+        font-size: 17px;
+    }
+}
+
+.link_active{
+    border-left: 5px solid white;
+    background: linear-gradient(to right,#708fe1,rgba(0,0,0,0));
+}

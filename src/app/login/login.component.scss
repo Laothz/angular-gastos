@@ -1,0 +1,11 @@
+@import '../../vars.scss';
+
+.login-background{
+    background-image: url('./../../assets/background-login.jpg');
+
+    .login-div-background{
+        width: 100%;
+        height: 100%;
+        background-color: rgba($color: $principal_color, $alpha: 0.5)
+    }
+}
